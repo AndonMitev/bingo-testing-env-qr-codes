@@ -22,7 +22,7 @@ function App() {
 
   return !config ? <h2>Loading</h2> : (
     <>
-      <div className="App" style={{ display: 'flex', justifyContent: 'center', justifyContent: 'space-evenly' }}>
+      <div className="App" style={{ display: 'flex', justifyContent: 'space-evenly' }}>
 
 
         {qrData.map(({ season, tokenIds }) => {
