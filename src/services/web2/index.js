@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosConfig = axios.create({
-  baseURL: 'https://381a2c9e89c2.eu.ngrok.io'
+  baseURL: 'https://gateway.opn.network/bingo-game'
 })
 
 export const getConfig = async () => {
