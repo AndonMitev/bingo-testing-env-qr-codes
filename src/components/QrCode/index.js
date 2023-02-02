@@ -17,7 +17,7 @@ export const QrCode = ({ value, }) => {
   // const tokenId = value.split('tokenId=')[1]
 
 
-  return <div style={{ display: 'flex', flexDirection: 'column', width: '20%', alignItems: 'center', gap: '20px', marginTop: 20, marginBottom: 20 }}>
+  return <div style={{ display: 'flex', flexDirection: 'column', width: '20%', alignItems: 'center', gap: '20px', marginTop: 80, marginBottom: 80 }}>
     <canvas ref={canvasRef} />
   </div>
 }
